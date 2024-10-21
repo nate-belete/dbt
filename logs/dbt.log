@@ -1,0 +1,28 @@
+[0m07:50:00.597006 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EBFC706290>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EBFC706A90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EBFC706DD0>]}
+
+
+============================== 07:50:00.604014 | b5dbfb9a-329a-44c4-bba4-15d961e17595 ==============================
+[0m07:50:00.604014 [info ] [MainThread]: Running with dbt=1.7.18
+[0m07:50:00.605521 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\nateb\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init AirBnB', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m07:50:00.608535 [debug] [MainThread]: Starter project path: C:\Users\nateb\OneDrive\Projects\dbt\dbt_venv\Lib\site-packages\dbt\include\starter_project
+[0m07:50:00.678525 [info ] [MainThread]: 
+Your new dbt project "AirBnB" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m07:50:00.681532 [info ] [MainThread]: Setting up your profile.
+[0m07:53:36.262484 [info ] [MainThread]: Profile AirBnB written to C:\Users\nateb\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m07:53:36.264490 [debug] [MainThread]: Command `dbt init` succeeded at 07:53:36.264490 after 215.80 seconds
+[0m07:53:36.265487 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EBFC6B6AD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EBF58EC5D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001EBF5B7CD90>]}
+[0m07:53:36.266488 [debug] [MainThread]: Flushing usage events
